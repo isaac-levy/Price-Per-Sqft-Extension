@@ -1,0 +1,14 @@
+{
+  "name": "Price Per Square Foot Ext",
+  "description": "Extension for calculating the $/sqft on prices displayed on Realtor.ca",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": [
+        "https://www.realtor.ca/*"
+      ]
+    }
+  ]
+}
